@@ -54,8 +54,8 @@ def run
     binding.pry
     case input
     when "exit"
-      exit_jukebox
       break
     end
   end
+  exit_jukebox
 end
