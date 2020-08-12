@@ -56,7 +56,8 @@ def run(songs)
       exit_jukebox
       break
     when "help"
-      help  
+      help
+    when "list"    
     end
   end
 end
