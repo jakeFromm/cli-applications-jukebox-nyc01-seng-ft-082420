@@ -57,5 +57,4 @@ def run
       break
     end
   end
-  exit_jukebox
 end
