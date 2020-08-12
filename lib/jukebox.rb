@@ -53,6 +53,7 @@ def run
     input = gets.strip
     case input
     when "exit"
+      exit_jukebox
       break
     end
   end
