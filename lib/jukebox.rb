@@ -57,7 +57,8 @@ def run(songs)
       break
     when "help"
       help
-    when "list"    
+    when "list"
+      list(songs)   
     end
   end
 end
