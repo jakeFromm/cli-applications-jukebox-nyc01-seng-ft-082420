@@ -51,7 +51,6 @@ def run
   loop do
     puts "Please enter a command:"
     input = gets.strip
-    binding.pry
     case input
     when "exit"
       break
